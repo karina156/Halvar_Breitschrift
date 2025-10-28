@@ -74,6 +74,130 @@ h1 {
   font-size: 20px;
 }
 
+/* Экран 2 */
+
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  height: 730px;
+  background: url(../images/block2.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 140px 60px;
+  box-sizing: border-box;
+}
+.section-text1 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  font-size: 40px;
+}
+
+.section-text1 p {
+  position: absolute;
+  margin: 0;
+}
+
+/* Б */
+.section-text11 {
+  top: 0;
+  left: 0;
+  font-weight: 700;
+}
+
+/* Д */
+.section-text12 {
+  top: 0;
+  left: 80px;
+  font-weight: 300;
+}
+
+/* Ж (верхняя) */
+.section-text13 {
+  top: 50px;
+  left: 40px;
+  font-weight: 700;
+}
+
+/* Г */
+.section-text14 {
+  top: 90px;
+  left: 0;
+  font-weight: 900;
+}
+
+/* Е (середина) */
+.section-text15 {
+  top: 90px;
+  left: 100px;
+  font-weight: 900;
+}
+
+/* Ж (нижняя) */
+.section-text16 {
+  top: 160px;
+  left: 90px;
+  font-weight: 700;
+}
+
+/* Е (нижняя левая) */
+.section-text17 {
+  top: 160px;
+  left: 10px;
+  font-weight: 300;
+}
+
+.section-text2 {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  font-size: 40px;
+  margin-top: 300px;
+  margin-left: 200px;
+}
+.section-text2 p {
+  position: absolute;
+  margin: 0;
+}
+/* В */
+.section-text21 {
+  top: -60px;
+  left: 73px;
+  font-weight: 700;
+}
+/* А */
+.section-text22 {
+  top: -10px;
+  left: 0;
+  font-weight: 700;
+}
+/* Г */
+.section-text23 {
+  top: -30px;
+  left: 120px;
+  font-weight: 700;
+}
+/* В */
+.section-text24 {
+  top: 50px;
+  left: -10px;
+  font-weight: 700;
+}
+/* А */
+.section-text25 {
+  top: 90px;
+  left: 20px;
+  font-weight: 700;
+}
+/* Б */
+.section-text26 {
+  top: 90px;
+  left: 120px;
+  font-weight: 700;
+}
 /* Экран 9 */
 .section9 {
   display: flex;
