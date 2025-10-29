@@ -426,6 +426,122 @@ h1 {
   font-weight: 700;
 }
 /* экран 3 */
+.section-3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  height: 730px;
+  background: url(../images/block3.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Заголовок */
+.section-3 h2 {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Контейнер языков */
+.language {
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+}
+
+/* ======= RU ======= */
+#lang-ru {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  transform: rotate(12deg);
+  font-weight: 700;
+  color: #ffffff;
+}
+#ru-1 {
+  font-size: 58px;
+  line-height: -1.1%;
+}
+#ru-2 {
+  font-size: 22px;
+  margin-top: 4px;
+}
+#ru-3 {
+  font-size: 48px;
+  margin-top: 8px;
+}
+#ru-4 {
+  font-size: 72px;
+  margin-top: 10px;
+}
+
+/* ======= EN ======= */
+#lang-en {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%) rotate(12deg);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#en-1 {
+  font-size: 58px;
+  line-height: -1.1%;
+}
+#en-2 {
+  font-size: 22px;
+  margin-top: 4px;
+}
+#en-3 {
+  font-size: 48px;
+  margin-top: 8px;
+}
+#en-4 {
+  font-size: 72px;
+  margin-top: 10px;
+}
+
+/* ======= CZ ======= */
+#lang-cz {
+  position: absolute;
+  top: 180px;
+  right: 300px;
+  transform: rotate(12deg);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#cz-1 {
+  font-size: 58px;
+  line-height: -1.1%;
+}
+#cz-2 {
+  font-size: 22px;
+  margin-top: 4px;
+}
+#cz-3 {
+  font-size: 48px;
+  margin-top: 8px;
+}
+#cz-4 {
+  font-size: 72px;
+  margin-top: 10px;
+}
+/* Настраиваю цвет */
+#lang-cz p {
+  color: #ffffff !important;
+}
+#lang-ru p {
+  color: #ffffff !important;
+}
 
 /* Экран 9 */
 .section9 {
