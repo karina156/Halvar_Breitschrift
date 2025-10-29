@@ -206,122 +206,226 @@ h1 {
   font-weight: 400;
 }
 /* экран 2.2 */
-
 .font-info {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 45px; /* расстояние между блоками */
-  margin-left: 80px;
-  margin-top: 40px;
-}
-
-.info-block {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.info-num {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.num-outline {
-  color: #1d1d1d;
-  text-align: center;
-  font-weight: 700;
+  position: relative;
+  width: 720px;
+  height: 300px;
   font-size: 24px;
 }
 
-.num-filled {
+/* ==== БЛОК 1 ==== */
+#num1 {
+  position: absolute;
+  top: 35px;
+  left: 127px;
+  font-weight: 700;
+}
+
+#num1_1 {
+  position: absolute;
+  top: 82px;
+  left: 127px;
+  font-weight: 700;
   color: #ffffff;
-  text-align: center;
+}
+
+#text1 {
+  position: absolute;
+  top: 30px;
+  left: 185px;
+  width: 460px;
+}
+
+/* ==== БЛОК 2 ==== */
+#num2 {
+  position: absolute;
+  top: 186px;
+  left: 125px;
   font-weight: 700;
-  font-size: 24px;
 }
 
-.info-text {
-  display: flex;
-  font-size: 24px;
-  font-weight: 400;
-  margin-left: 15px;
+#num2_1 {
+  position: absolute;
+  top: 233px;
+  left: 125px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
-/* экран 2.3 */
+#text2 {
+  position: absolute;
+  top: 170px;
+  left: 185px;
+  width: 460px;
+}
+
+/* ==== БЛОК 3 ==== */
+#num3 {
+  position: absolute;
+  top: 334px;
+  left: 123px;
+  font-weight: 700;
+}
+
+#num3_1 {
+  position: absolute;
+  top: 381px;
+  left: 123px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#text3 {
+  position: absolute;
+  top: 320px;
+  left: 185px;
+  width: 460px;
+}
+
 .section-text3 {
   position: relative;
   width: 400px;
   height: 400px;
   font-size: 50px;
 }
-
 .section-text3 p {
   position: absolute;
   margin: 0;
 }
-
 #section-text31 {
   top: 0px;
-  right: 90px;
+  right: 100px;
   font-weight: 700;
 }
 #section-text32 {
   top: 0px;
-  right: 55px;
+  right: 40px;
   font-weight: 700;
 }
 #section-text33 {
   top: 0px;
-  right: 0px;
+  right: -30px;
   font-weight: 700;
 }
 #section-text34 {
-  top: 50px;
+  top: 60px;
   right: 90px;
   font-weight: 700;
 }
 #section-text35 {
   top: 30px;
-  right: 50px;
+  right: 40px;
   font-weight: 700;
 }
 #section-text36 {
-  top: 50px;
-  right: 0px;
+  top: 60px;
+  right: -15px;
   font-weight: 700;
 }
 #section-text37 {
-  top: 95px;
-  right: 95px;
+  top: 120px;
+  right: 100px;
   font-weight: 700;
 }
 #section-text38 {
-  top: 80px;
+  top: 90px;
   right: 45px;
   font-weight: 700;
 }
 #section-text39 {
-  top: 80px;
-  right: 0px;
+  top: 100px;
+  right: -5px;
   font-weight: 700;
 }
 #section-text311 {
-  top: 120px;
-  right: 60px;
+  top: 170px;
+  right: 90px;
   font-weight: 700;
 }
 #section-text312 {
-  top: 0px;
-  right: 0px;
+  top: 150px;
+  right: 30px;
   font-weight: 700;
 }
 #section-text313 {
-  top: 0px;
-  right: 0px;
+  top: 180px;
+  right: -20px;
   font-weight: 700;
 }
+/* экран2 в экране 2.3 */
+.section-text4 {
+  font-size: 50px;
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  margin-top: 300px;
+  margin-right: 200px;
+}
+.section-text4 p {
+  position: absolute;
+  margin: 0;
+}
+#section-text41 {
+  top: -90px;
+  right: -580px;
+  font-weight: 700;
+}
+#section-text42 {
+  top: -80px;
+  right: -650px;
+  font-weight: 700;
+}
+#section-text43 {
+  top: -55px;
+  right: -715px;
+  font-weight: 700;
+}
+#section-text44 {
+  top: -30px;
+  right: -610px;
+  font-weight: 700;
+}
+#section-text45 {
+  top: 0px;
+  right: -690px;
+  font-weight: 700;
+}
+#section-text46 {
+  top: 20px;
+  right: -570px;
+  font-weight: 700;
+}
+#section-text47 {
+  top: 25px;
+  right: -635px;
+  font-weight: 700;
+}
+#section-text48 {
+  top: 45px;
+  right: -680px;
+  font-weight: 700;
+}
+#section-text49 {
+  top: 55px;
+  right: -610px;
+  font-weight: 700;
+}
+#section-text411 {
+  top: 100px;
+  right: -610px;
+  font-weight: 700;
+}
+#section-text412 {
+  top: 90px;
+  right: -650px;
+  font-weight: 700;
+}
+#section-text413 {
+  top: 100px;
+  right: -700px;
+  font-weight: 700;
+}
+/* экран 3 */
 
 /* Экран 9 */
 .section9 {
