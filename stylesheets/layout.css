@@ -562,7 +562,253 @@ h1 {
   top: 200px;
   left: 100px;
 }
+/* экран 4 */
+.section-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  height: 730px;
+  background: url(../images/block4.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 90px;
+}
 
+/* ===== Заголовок ===== */
+#game-title {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#game-title h2 {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: none;
+}
+/* ===== Первый столбец: языки ===== */
+#col-lang {
+  position: absolute;
+  top: 190px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+#col-lang p {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  width: 154px;
+  line-height: 1.2;
+}
+
+/* ===== Второй столбец: игроки ===== */
+#col-players {
+  position: absolute;
+  top: 205px;
+  left: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  width: 518px;
+}
+
+#col-players p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* ===== Третий столбец: счёт (левая цифра) ===== */
+#col-score-left {
+  position: absolute;
+  top: 220px;
+  left: 805px;
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  width: 320px;
+}
+
+#col-score-left p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* ===== Четвёртый столбец: счёт (правая цифра) ===== */
+#col-score-right {
+  position: absolute;
+  top: 220px;
+  left: 907px;
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  width: 60px;
+}
+
+#col-score-right p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* ===== Пятый столбец: время ===== */
+#col-time {
+  position: absolute;
+  top: 205px;
+  left: 1065px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  width: 385px;
+}
+
+#col-time p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+/* Экран 6 */
+/* === ЭКРАН 6 === */
+.section-6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  height: 920px;
+  background: url(../images/block6.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 90px;
+}
+
+/* === Заголовок === */
+.section-6 h2 {
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+/* === Общие стили для всех букв A === */
+.section-6 p {
+  position: absolute;
+  font-size: 100px;
+  margin: 0;
+  transform: rotate(-25deg);
+}
+/* === Индивидуальное позиционирование (пример) === */
+#a1 {
+  top: 260px;
+  left: 110px;
+  font-weight: 900;
+}
+#a2 {
+  top: 330px;
+  left: 270px;
+  font-weight: 700;
+}
+#a3 {
+  top: 244px;
+  left: 444px;
+  font-weight: 500;
+  font-style: italic;
+}
+#a4 {
+  top: 170px;
+  left: 610px;
+  font-weight: 400;
+}
+#a5 {
+  top: 320px;
+  left: 600px;
+  font-weight: 300;
+}
+#a6 {
+  top: 390px;
+  left: 755px;
+  font-weight: 800;
+}
+#a7 {
+  top: 305px;
+  left: 935px;
+  font-weight: 600;
+  font-style: italic;
+}
+#a8 {
+  top: 413px;
+  left: 100px;
+  font-weight: 400;
+}
+#a9 {
+  top: 460px;
+  left: 910px;
+  font-weight: 900;
+}
+
+#a10 {
+  top: 570px;
+  left: 85px;
+  font-weight: 300;
+}
+#a11 {
+  top: 490px;
+  left: 255px;
+  font-weight: 500;
+}
+#a12 {
+  top: 400px;
+  left: 425px;
+  font-weight: 700;
+}
+#a13 {
+  top: 475px;
+  left: 580px;
+  font-weight: 900;
+}
+#a14 {
+  top: 625px;
+  left: 565px;
+  font-weight: 300;
+}
+#a15 {
+  top: 545px;
+  left: 740px;
+  font-weight: 600;
+}
+#a16 {
+  top: 560px;
+  left: 415px;
+  font-weight: 200;
+  font-style: italic;
+}
+#a17 {
+  top: 640px;
+  left: 240px;
+  font-weight: 400;
+}
+#a18 {
+  top: 720px;
+  left: 60px;
+  font-weight: 500;
+}
 /* Экран 9 */
 .section9 {
   display: flex;
