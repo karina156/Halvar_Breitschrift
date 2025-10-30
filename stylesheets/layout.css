@@ -439,6 +439,7 @@ h1 {
   background-size: cover;
   overflow: hidden;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 /* Заголовок */
@@ -577,6 +578,7 @@ h1 {
   overflow: hidden;
   box-sizing: border-box;
   margin-top: 90px;
+  margin-bottom: 50px;
 }
 
 /* ===== Заголовок ===== */
@@ -680,19 +682,148 @@ h1 {
   text-align: left;
 }
 /* Экран 5 */
+/* === Экран 5 === */
 .section-5 {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   max-width: 1440px;
-  height: 951px;
+  height: 850px;
   background: url(../images/block5.svg) no-repeat center center;
   background-size: cover;
-  overflow: hidden;
   box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Halvar Breitschrift", sans-serif;
+  color: #1d1d1d;
 }
+
+/* --- Заголовок --- */
+#title-5 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: auto;
+  white-space: nowrap;
+}
+
+/* ======== ЦИФРЫ ======== */
+#numbers p {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* --- Позиционирование по кругу (примерно как на часах) --- */
+#n12 {
+  top: 260px;
+  left: 400px;
+}
+#n1 {
+  top: 320px;
+  left: 540px;
+}
+#n2 {
+  top: 385px;
+  left: 595px;
+}
+#n3 {
+  top: 475px;
+  left: 600px;
+}
+#n4 {
+  top: 560px;
+  left: 575px;
+}
+#n5 {
+  top: 635px;
+  left: 500px;
+}
+#n6 {
+  top: 655px;
+  left: 400px;
+}
+#n7 {
+  top: 635px;
+  left: 320px;
+}
+#n8 {
+  top: 555px;
+  left: 235px;
+}
+#n9 {
+  top: 470px;
+  left: 213px;
+}
+#n10 {
+  top: 385px;
+  left: 210px;
+}
+#n11 {
+  top: 320px;
+  left: 270px;
+}
+
+/* ======== СИМВОЛЫ ======== */
+#symbols p {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* --- Символы располагаем аналогично цифрам --- */
+#s12 {
+  top: 385px;
+  left: 810px;
+}
+#s1 {
+  top: 320px;
+  left: 855px;
+}
+#s2 {
+  top: 260px;
+  left: 995px;
+}
+#s3 {
+  top: 320px;
+  left: 1110px;
+}
+#s4 {
+  top: 385px;
+  left: 1170px;
+}
+#s5 {
+  top: 475px;
+  left: 1180px;
+}
+#s6 {
+  top: 560px;
+  left: 1150px;
+}
+#s7 {
+  top: 620px;
+  left: 1080px;
+}
+#s8 {
+  top: 655px;
+  left: 985px;
+}
+#s9 {
+  top: 625px;
+  left: 890px;
+}
+#s10 {
+  top: 555px;
+  left: 815px;
+}
+#s11 {
+  top: 470px;
+  left: 800px;
+}
+
 /* Экран 6 */
 /* === ЭКРАН 6 === */
 .section-6 {
@@ -708,7 +839,8 @@ h1 {
   background-size: cover;
   overflow: hidden;
   box-sizing: border-box;
-  margin-top: 90px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 /* === Заголовок === */
@@ -716,7 +848,7 @@ h1 {
   font-size: 70px;
   font-weight: 700;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 60px;
   text-transform: uppercase;
 }
@@ -829,16 +961,105 @@ h1 {
 /* экран 7 */
 .section-7 {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   max-width: 1440px;
-  height: 1069px;
+  height: 626px;
   background: url(../images/block7.png) no-repeat center center;
   background-size: cover;
-  overflow: hidden;
   box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* --- Заголовки --- */
+#title-left {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 84%;
+}
+
+#title-right {
+  position: absolute;
+  top: 110px;
+  right: 190px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+/* --- Метки игроков --- */
+#white-label {
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#black-label {
+  position: absolute;
+  top: 390px;
+  left: 100px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* --- Имена игроков --- */
+#white-name {
+  position: absolute;
+  top: 318px;
+  left: 280px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+#black-name {
+  position: absolute;
+  top: 390px;
+  left: 315px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+/* --- Подписи справа --- */
+#round-label {
+  position: absolute;
+  top: 320px;
+  right: 160px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#date-label {
+  position: absolute;
+  top: 390px;
+  right: 160px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* --- Значения справа --- */
+#round-value {
+  position: absolute;
+  top: 320px;
+  right: 240px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+#date-value {
+  position: absolute;
+  top: 390px;
+  right: 250px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 100;
 }
 /* Экран 8 */
 .section-8 {
@@ -853,6 +1074,7 @@ h1 {
   background-size: cover;
   overflow: hidden;
   box-sizing: border-box;
+  margin-bottom: 80px;
 }
 
 /* Заголовок */
@@ -900,28 +1122,37 @@ h1 {
 }
 
 /* ======== ТЕКСТЫ ======== */
-#text1,
-#text2,
-#text3 {
+#text11,
+#text21,
+#text31 {
   position: absolute;
   font-size: 24px;
 }
+#text11,
+#text21,
+#text31 {
+  position: absolute;
+  font-size: 24px;
+  width: 420px;
+  white-space: normal;
+  text-align: left;
+}
 
 /* Текст возле ft */
-#text1 {
-  top: 330px;
+#text11 {
+  top: 320px;
   left: 900px;
 }
 
 /* Текст возле r */
-#text2 {
-  top: 580px;
+#text21 {
+  top: 570px;
   left: 160px;
 }
 
 /* Текст возле c */
-#text3 {
-  top: 840px;
+#text31 {
+  top: 870px;
   left: 900px;
 }
 /* Экран 9 */
@@ -938,6 +1169,7 @@ h1 {
   overflow: hidden;
   box-sizing: border-box;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 /* Текст "64px" */
@@ -952,8 +1184,8 @@ h1 {
 /* Основной текст справа */
 #section-92 {
   position: absolute;
-  top: 345px;
-  left: 840px;
+  top: 340px;
+  left: 900px;
   font-size: 24px;
   font-weight: 400;
   text-align: left;
