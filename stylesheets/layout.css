@@ -682,7 +682,6 @@ h1 {
   text-align: left;
 }
 /* Экран 5 */
-/* === Экран 5 === */
 .section-5 {
   position: relative;
   width: 100%;
@@ -692,8 +691,6 @@ h1 {
   background-size: cover;
   box-sizing: border-box;
   overflow: hidden;
-  font-family: "Halvar Breitschrift", sans-serif;
-  color: #1d1d1d;
 }
 
 /* --- Заголовок --- */
@@ -825,7 +822,6 @@ h1 {
 }
 
 /* Экран 6 */
-/* === ЭКРАН 6 === */
 .section-6 {
   position: relative;
   display: flex;
