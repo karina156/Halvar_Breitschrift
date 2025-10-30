@@ -435,7 +435,7 @@ h1 {
   width: 100%;
   max-width: 1440px;
   height: 730px;
-  background: url(../images/block3.svg) no-repeat center center;
+  background: url(../images/block3.png) no-repeat center center;
   background-size: cover;
   overflow: hidden;
   box-sizing: border-box;
@@ -679,6 +679,20 @@ h1 {
   font-weight: 400;
   text-align: left;
 }
+/* Экран 5 */
+.section-5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 951px;
+  background: url(../images/block5.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+}
 /* Экран 6 */
 /* === ЭКРАН 6 === */
 .section-6 {
@@ -690,7 +704,7 @@ h1 {
   width: 100%;
   max-width: 1440px;
   height: 920px;
-  background: url(../images/block6.svg) no-repeat center center;
+  background: url(../images/block6.png) no-repeat center center;
   background-size: cover;
   overflow: hidden;
   box-sizing: border-box;
@@ -723,55 +737,57 @@ h1 {
 #a2 {
   top: 330px;
   left: 270px;
-  font-weight: 700;
+  font-weight: 800;
 }
 #a3 {
   top: 244px;
   left: 444px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: italic;
 }
 #a4 {
   top: 170px;
   left: 610px;
-  font-weight: 400;
+  font-weight: 600;
 }
 #a5 {
   top: 320px;
   left: 600px;
-  font-weight: 300;
+  font-weight: 500;
 }
 #a6 {
   top: 390px;
   left: 755px;
-  font-weight: 800;
+  font-weight: 400;
 }
 #a7 {
   top: 305px;
   left: 935px;
-  font-weight: 600;
+  font-weight: 300;
   font-style: italic;
 }
 #a8 {
   top: 413px;
   left: 100px;
-  font-weight: 400;
+  font-weight: 200;
+  font-style: italic;
 }
 #a9 {
   top: 460px;
   left: 910px;
-  font-weight: 900;
+  font-weight: 100;
+  font-style: italic;
 }
 
 #a10 {
   top: 570px;
   left: 85px;
-  font-weight: 300;
+  font-weight: 900;
 }
 #a11 {
   top: 490px;
   left: 255px;
-  font-weight: 500;
+  font-weight: 800;
 }
 #a12 {
   top: 400px;
@@ -781,52 +797,243 @@ h1 {
 #a13 {
   top: 475px;
   left: 580px;
-  font-weight: 900;
+  font-weight: 600;
 }
 #a14 {
   top: 625px;
   left: 565px;
-  font-weight: 300;
+  font-weight: 500;
 }
 #a15 {
   top: 545px;
   left: 740px;
-  font-weight: 600;
+  font-weight: 400;
+  font-style: italic;
 }
 #a16 {
   top: 560px;
   left: 415px;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
 }
 #a17 {
   top: 640px;
   left: 240px;
-  font-weight: 400;
+  font-weight: 200;
 }
 #a18 {
   top: 720px;
   left: 60px;
-  font-weight: 500;
+  font-weight: 100;
 }
-/* Экран 9 */
-.section9 {
+/* экран 7 */
+.section-7 {
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 50px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 1069px;
+  background: url(../images/block7.png) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
 }
-.section9-container {
+/* Экран 8 */
+.section-8 {
+  position: relative;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 1069px;
+  background: url(../images/block8.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
 }
-.section9-container p {
+
+/* Заголовок */
+#title-8 {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ======== ЛИГАТУРЫ ======== */
+#ligature1,
+#ligature2,
+#ligature3 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 300px;
+  margin: 0;
+}
+
+/* Лигатура ft */
+#ligature1 {
+  top: 215px;
+  left: 240px;
+  transform: rotate(20deg);
+}
+
+/* Лигатура r */
+#ligature2 {
+  top: 460px;
+  left: 1090px;
+  transform: rotate(20deg);
+}
+
+/* Лигатура c */
+#ligature3 {
+  top: 760px;
+  left: 230px;
+  transform: rotate(20deg);
+}
+
+/* ======== ТЕКСТЫ ======== */
+#text1,
+#text2,
+#text3 {
+  position: absolute;
   font-size: 24px;
 }
-.section9-container .ligature {
-  font-weight: bold;
-  font-size: 300px;
-  line-height: 88%;
+
+/* Текст возле ft */
+#text1 {
+  top: 330px;
+  left: 900px;
 }
-.section9-item-2 {
-  padding: 20px 0 40px 140px;
+
+/* Текст возле r */
+#text2 {
+  top: 580px;
+  left: 160px;
+}
+
+/* Текст возле c */
+#text3 {
+  top: 840px;
+  left: 900px;
+}
+/* Экран 9 */
+.section-9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  height: 541px;
+  background: url(../images/block9.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* Текст "64px" */
+#section-91 {
+  position: absolute;
+  top: 125px;
+  left: 450px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Основной текст справа */
+#section-92 {
+  position: absolute;
+  top: 345px;
+  left: 840px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+/* Экран 10 */
+/* === ЭКРАН 10 === */
+.section-10 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  height: 1106px;
+  background: url(../images/block10.svg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* Название шрифта */
+#font-name {
+  position: absolute;
+  top: 140px;
+  left: 200px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Заголовок */
+.section-10 h1 {
+  position: absolute;
+  top: 280px;
+  left: 200px;
+  font-size: 180px;
+  font-weight: 900;
+  line-height: 61%;
+}
+.section-10 h1 {
+  top: 300px;
+  left: 250px;
+}
+
+/* Общие настройки для текста внизу */
+#info-labels,
+#info-values {
+  position: absolute;
+  bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 400;
+}
+#info-labels div,
+#info-values div {
+  color: #ffffff !important;
+}
+/* Подписи (слева) */
+#info-labels {
+  top: 950px;
+  left: 750px;
+  font-weight: 400;
+  gap: 23px;
+}
+
+/* Значения (справа) */
+#info-values {
+  top: 950px;
+  left: 950px;
+  font-weight: 400;
+  gap: 12px;
+}
+#font-name {
+  top: 540px;
+  left: 260px;
+  font-weight: 700;
+}
+#logo {
+  position: absolute;
+  top: 940px;
+  left: 190px;
 }
