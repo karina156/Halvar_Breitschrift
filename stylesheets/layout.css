@@ -1065,12 +1065,12 @@ h1 {
   justify-content: center;
   width: 100%;
   max-width: 1440px;
-  height: 1069px;
+  height: 1359px;
   background: url(../images/block8.svg) no-repeat center center;
   background-size: cover;
   overflow: hidden;
   box-sizing: border-box;
-  margin-bottom: 80px;
+  margin-bottom: -10px;
 }
 
 /* Заголовок */
@@ -1098,22 +1098,22 @@ h1 {
 
 /* Лигатура ft */
 #ligature1 {
-  top: 215px;
-  left: 240px;
+  top: 200px;
+  left: 355px;
   transform: rotate(20deg);
 }
 
 /* Лигатура r */
 #ligature2 {
-  top: 460px;
-  left: 1090px;
+  top: 560px;
+  left: 940px;
   transform: rotate(20deg);
 }
 
 /* Лигатура c */
 #ligature3 {
-  top: 760px;
-  left: 230px;
+  top: 930px;
+  left: 370px;
   transform: rotate(20deg);
 }
 
@@ -1129,27 +1129,27 @@ h1 {
 #text31 {
   position: absolute;
   font-size: 24px;
-  width: 420px;
+  width: 500px;
   white-space: normal;
   text-align: left;
 }
 
 /* Текст возле ft */
 #text11 {
-  top: 320px;
-  left: 900px;
+  top: 340px;
+  left: 880px;
 }
 
 /* Текст возле r */
 #text21 {
-  top: 570px;
-  left: 160px;
+  top: 680px;
+  left: 200px;
 }
 
 /* Текст возле c */
 #text31 {
-  top: 870px;
-  left: 900px;
+  top: 1090px;
+  left: 840px;
 }
 /* Экран 9 */
 .section-9 {
@@ -1253,7 +1253,7 @@ h1 {
   top: 950px;
   left: 950px;
   font-weight: 400;
-  gap: 12px;
+  gap: 23px;
 }
 #font-name {
   top: 540px;
